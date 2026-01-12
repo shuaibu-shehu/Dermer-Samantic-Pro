@@ -22,7 +22,7 @@ The system moves beyond standard Transfer Learning by employing a **Dual-Tower C
 
 ### 1. Foundation Model: BioMedCLIP (Microsoft)
 
-We utilize `microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224`, pre-trained on 15 million biomedical image-text pairs. This provides a robust starting point for understanding medical visual syntax.
+I utilize `microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224`, pre-trained on 15 million biomedical image-text pairs. This provides a robust starting point for understanding medical visual syntax.
 
 ### 2. Parameter-Efficient Fine-Tuning (PEFT)
 
@@ -35,7 +35,7 @@ To specialize the model without catastrophic forgetting (or massive compute cost
 
 ### 3. Contrastive Training Objective
 
-Instead of a simple Cross-Entropy classification head, we optimize the **InfoNCE Loss** (CLIP Loss). The model is trained to maximize the cosine similarity between:
+Instead of a simple Cross-Entropy classification head, I optimize the **InfoNCE Loss** (CLIP Loss). The model is trained to maximize the cosine similarity between:
 
 * **Image:** A dermoscopy photo of a lesion.
 * **Text:** The specific medical definition (e.g., *"High risk melanoma skin cancer"*).
@@ -91,7 +91,7 @@ The application flags "High Risk" malignancies (Melanoma, BCC) with distinct ale
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/your-username/derma-semantics-pro.git
+git clone https://github.com/shuaibu-shehu/derma-semantics-pro.git
 cd derma-semantics-pro
 pip install -r requirements.txt
 
@@ -131,7 +131,6 @@ streamlit run app.py
 
 * **Dataset:** ISIC Archive (International Skin Imaging Collaboration).
 * **Base Model:** Microsoft BioMedCLIP.
-* **License:** MIT License.
 
 
-*Created by [Your Name]*
+*Created by SHUAIBU SHEHU*

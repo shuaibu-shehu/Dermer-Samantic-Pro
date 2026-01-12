@@ -1,6 +1,9 @@
+
 # 🧬 Derma-Semantics Pro: Explainable Medical AI
 
 **A Specialized Multimodal System for Dermatological Diagnosis**
+
+---
 
 ## 📋 Executive Summary
 
@@ -48,13 +51,13 @@ Instead of a simple Cross-Entropy classification head, we optimize the **InfoNCE
 
 The raw dataset is heavily biased toward common benign moles (Nevi), creating a "lazy" model that ignores rare cancers.
 
-| Condition | Original Count | Action Taken |
-| --- | --- | --- |
-| **Melanocytic Nevi** | **6,405** (Dominant) | 📉 **Downsampled to 1,500** |
-| **Melanoma** | 1,076 | ✅ Kept 100% |
-| **Basal Cell Carcinoma** | 487 | ✅ Kept 100% |
-| **Actinic Keratosis** | 315 | ✅ Kept 100% |
-| **Dermatofibroma** | 110 (Rare) | 🔄 **Heavy Augmentation** |
+| Condition                | Original Count       | Action Taken                |
+| ------------------------ | -------------------- | --------------------------- |
+| **Melanocytic Nevi**     | **6,405** (Dominant) | 📉 **Downsampled to 1,500** |
+| **Melanoma**             | 1,076                | ✅ Kept 100%                 |
+| **Basal Cell Carcinoma** | 487                  | ✅ Kept 100%                 |
+| **Actinic Keratosis**    | 315                  | ✅ Kept 100%                 |
+| **Dermatofibroma**       | 110 (Rare)           | 🔄 **Heavy Augmentation**   |
 
 **Preprocessing Strategy:**
 
@@ -89,10 +92,9 @@ The application flags "High Risk" malignancies (Melanoma, BCC) with distinct ale
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/your-username/derma-semantics-pro.git
-cd derma-semantics-pro
+git clone https://github.com/your-username/derma-semantics-pro.git  
+cd derma-semantics-pro  
 pip install -r requirements.txt
-
 ```
 
 ### 2. Run the App
@@ -101,7 +103,6 @@ The interface is built with **Streamlit** for rapid clinical prototyping.
 
 ```bash
 streamlit run app.py
-
 ```
 
 ---
@@ -109,8 +110,8 @@ streamlit run app.py
 ## 📈 Performance Results
 
 * **Zero-Shot Test Accuracy:** **~70.51%**
-* *Note:* This metric represents the model's ability to correctly identify the disease purely by matching the image to its text description, without a traditional classifier head.
 
+* *Note:* This metric represents the model's ability to correctly identify the disease purely by matching the image to its text description, without a traditional classifier head.
 
 * **Sensitivity (Recall) for Melanoma:** Optimized to **>85%** in validation studies to prioritize patient safety.
 
@@ -131,5 +132,6 @@ streamlit run app.py
 * **Base Model:** Microsoft BioMedCLIP.
 * **License:** MIT License.
 
-
 *Created by [Your Name]*
+
+---

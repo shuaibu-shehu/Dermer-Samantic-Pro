@@ -1,5 +1,3 @@
----
-
 # 🧬 Derma-Semantics Pro: Explainable Medical AI
 
 **A Specialized Multimodal System for Dermatological Diagnosis**
@@ -135,6 +133,5 @@ streamlit run app.py
 * **Base Model:** Microsoft BioMedCLIP.
 * **License:** MIT License.
 
----
 
 *Created by [Your Name]*

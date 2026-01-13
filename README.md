@@ -98,8 +98,9 @@ pip install -r requirements.txt
 ```
 ### 2 Download  finetuned weights
 **Download From:** [Derma Semantics Pro Weights](https://drive.google.com/file/d/1lXadQ97rtxlU7NkHxWk6HlYNqztVCHd2/view)
+* Ensure _weights_path = "/content/drive/MyDrive/Colab Notebooks/biomedclip_contrastive_finetuned.pt"_ points to the downloaded weights path
 
-### 2. Run the App
+### 3. Run the App
 
 The interface is built with **Streamlit** for rapid clinical prototyping.
 

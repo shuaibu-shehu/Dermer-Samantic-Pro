@@ -110,7 +110,7 @@ streamlit run app.py
 
 ## 📈 Performance Results
 
-* **Zero-Shot Test Accuracy:** **~70.51%**
+* **Zero-Shot Test Accuracy:** **~81.71%**
 * *Note:* This metric represents the model's ability to correctly identify the disease purely by matching the image to its text description, without a traditional classifier head.
 
 
@@ -120,10 +120,10 @@ streamlit run app.py
 
 ## 🖼️ Demo
 
-*(Add screenshots of your Streamlit interface here)*
+<img width="1880" height="829" alt="image" src="https://github.com/user-attachments/assets/ac55f9d0-2031-417f-b663-89d679693c15" />
 
-* *Screenshot 1: The Semantic Profile Bar Chart*
-* *Screenshot 2: The Saliency Map Overlay (X-Ray)*
+<img width="1112" height="604" alt="image" src="https://github.com/user-attachments/assets/68d0e22a-aa65-4139-bfd8-fd9c7ddef15f" />
+
 
 ---
 

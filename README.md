@@ -96,6 +96,8 @@ cd derma-semantics-pro
 pip install -r requirements.txt
 
 ```
+### 2 Download  finetuned weights
+**Download From:** [Derma Semantics Pro Weights](https://drive.google.com/file/d/1lXadQ97rtxlU7NkHxWk6HlYNqztVCHd2/view)
 
 ### 2. Run the App
 
@@ -132,5 +134,7 @@ streamlit run app.py
 * **Dataset:** ISIC Archive (International Skin Imaging Collaboration).
 * **Base Model:** Microsoft BioMedCLIP.
 
+## 📜 Acknowledgements
+*  For any query, please contact _shuaibushehukalifa@gmail.com._
 
 *Created by SHUAIBU SHEHU*

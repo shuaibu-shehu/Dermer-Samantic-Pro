@@ -127,7 +127,7 @@ streamlit run app.py
 
 ---
 
-## 📜 License & Acknowledgements
+## 📜 Acknowledgements
 
 * **Dataset:** ISIC Archive (International Skin Imaging Collaboration).
 * **Base Model:** Microsoft BioMedCLIP.

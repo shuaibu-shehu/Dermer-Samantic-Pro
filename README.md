@@ -113,7 +113,7 @@ streamlit run app.py
 
 ## 📈 Performance Results
 
-* **Zero-Shot Test Accuracy:** **~81.71%**
+* **Zero-Shot Test Accuracy:** **~81.71%(Fine-tuning is ongoing, aiming for higher Accuracy)**
 * *Note:* This metric represents the model's ability to correctly identify the disease purely by matching the image to its text description, without a traditional classifier head.
 
 
@@ -135,7 +135,7 @@ streamlit run app.py
 * **Dataset:** ISIC Archive (International Skin Imaging Collaboration).
 * **Base Model:** Microsoft BioMedCLIP.
 
-## 📜 Acknowledgements
+## 📜Contact
 *  For any query, please contact _shuaibushehukalifa@gmail.com._
 
 *Created by SHUAIBU SHEHU*

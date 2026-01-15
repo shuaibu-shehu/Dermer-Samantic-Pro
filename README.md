@@ -111,9 +111,9 @@ streamlit run app.py
 
 ---
 
-## 📈 Performance Results
+## 📈 Performance Results (Fine-tuning is ongoing, aiming for higher Accuracy).
 
-* **Zero-Shot Test Accuracy:** **~81.71%(Fine-tuning is ongoing, aiming for higher Accuracy)**
+* **Zero-Shot Test Accuracy:** **~81.71%**
 * *Note:* This metric represents the model's ability to correctly identify the disease purely by matching the image to its text description, without a traditional classifier head.
 
 
